@@ -27,7 +27,7 @@ body{
 	margin-right: 5%;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 5px;
@@ -35,11 +35,11 @@ ul {
     background-color: #333;
 }
 
-ul li {
+nav ul li {
     float: left;
 }
 
-ul li a {
+nav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -47,7 +47,7 @@ ul li a {
     text-decoration: none;
 }
 
-ul li a:hover{
+nav ul li a:hover{
   background-color: purple;
   color: white;
 }
@@ -56,15 +56,15 @@ ul li a:hover{
     background-color: #4CAF50;
 }
 
-ul li {
+nav ul li {
     border-right: 1px solid #bbb;
 }
 
-ul li:last-child {
+nav ul li:last-child {
     border-right: none;
 }
 
-ul {
+nav ul {
     position: fixed;
     top: 0;
     width: 100%;
