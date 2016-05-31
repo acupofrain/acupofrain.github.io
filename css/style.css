@@ -35,11 +35,11 @@ ul {
     background-color: #333;
 }
 
-li {
+ul li {
     float: left;
 }
 
-li a {
+ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -47,7 +47,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover{
+ul li a:hover{
   background-color: purple;
   color: white;
 }
@@ -56,11 +56,11 @@ li a:hover{
     background-color: #4CAF50;
 }
 
-li {
+ul li {
     border-right: 1px solid #bbb;
 }
 
-li:last-child {
+ul li:last-child {
     border-right: none;
 }
 
