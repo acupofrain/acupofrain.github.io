@@ -27,28 +27,45 @@ body{
 	margin-right: 5%;
 }
 
-nav ul {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-	background-color: grey;
+    padding: 5px;
+    overflow: scroll;
+    background-color: #333;
 }
 
-nav ul li {
+li {
     float: left;
 }
 
-nav ul li a {
-  display: block;
-  padding: 8px;
-  text-decoration: none;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
 }
 
-nav ul li a:hover{
+li a:hover{
   background-color: purple;
   color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
