@@ -1,5 +1,5 @@
 p {
-	color: white;
+	color: black;
 }
 
 .centerMe {
@@ -10,7 +10,7 @@ p {
 
 strong {
 		font-size: 24px;
-		color: green;
+		color: #0066ff;
 }
 
 h1 {
@@ -20,13 +20,13 @@ h1 {
 	border-width: 7px;
 	text-align: center;
 	background-color: #fff;
-	color: blue;
+	color: #993399;
 	font-size: 36px;
 	border-radius: 20px;
 }
 
 body{
-	background-color: #6666ff;
+	background-color: #ffcccc;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -36,7 +36,7 @@ nav ul {
     margin: 0;
     padding: 5px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #993399;
 }
 
 nav ul li {
@@ -52,12 +52,12 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-  background-color: purple;
-  color: white;
+  background-color: white;
+  color: #993399;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #ff9900;
 }
 
 nav ul li {
